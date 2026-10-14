@@ -1,0 +1,67 @@
+/* Header Styling */
+header {
+    position: relative;
+    background: #007bff;
+    background: linear-gradient(135deg, #0d3b66, #0077b6);
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    min-height: 120px;
+}
+
+.shopping-mall {
+    position: absolute;
+    bottom: 20px;
+    font-variant: small-caps;
+}
+
+.shopping-mall > h1 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0px;
+}
+
+.shopping-mall > h5 {
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+    color: #e0e0e0;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+/* Poly Cart Styling */
+.poly-cart {
+    margin-top: 5px;
+}
+
+.poly-cart ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-variant: small-caps;
+}
+
+.poly-cart .panel-heading strong {
+    font-variant: small-caps;
+    font-size: larger;
+    text-shadow: 0 0 2px darkgray;
+}
+
+/* Poly Product Styling */
+.poly-prod {
+    text-align: center;
+    padding: 5px;
+}
+
+.poly-prod .panel-body img {
+    height: 150px;
+    max-width: 95%;
+    object-fit: contain;
+}
